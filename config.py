@@ -1,0 +1,6 @@
+import os
+
+BOT_TOKEN = "8241623937:AAF0kNO-PJepLnDUbSwOBuVsMq0ecDN6Bf4"
+CHECK_INTERVAL_MIN = int(os.getenv('CHECK_INTERVAL_MIN', '3'))
+DEFAULT_MAX_PRICE = int(os.getenv('DEFAULT_MAX_PRICE', '3000'))
+
